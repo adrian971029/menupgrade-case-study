@@ -19,7 +19,7 @@ The source is private. This repository explains how the system is put together a
 ## Contents
 
 1. [The product](#1-the-product)
-2. [One codebase, eight modules](#2-one-codebase-eight-modules)
+2. [One Kotlin codebase, every platform](#2-one-kotlin-codebase-every-platform)
 3. [Every screen is the same shape](#3-every-screen-is-the-same-shape)
 4. [Errors are codes, text is born in the app](#4-errors-are-codes-text-is-born-in-the-app)
 5. [Tenants are isolated by the database](#5-tenants-are-isolated-by-the-database)
@@ -41,7 +41,7 @@ The source is private. This repository explains how the system is put together a
 
 Both apps share one Kotlin codebase. The staff app runs the same screens on a phone, a tablet and a desktop at the front desk.
 
-## 2. One codebase, eight modules
+## 2. One Kotlin codebase, every platform
 
 ```mermaid
 flowchart LR
